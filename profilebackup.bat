@@ -10,7 +10,7 @@ goto :tryagain
 
 rem scanstate backup process and copying profile onto a network drive and folder
 :scanstate
-pushd \\fs.sc.fsu.edu\usmt
+pushd \\********\***
 
 %cd%\newtools\amd64\scanstate.exe /genconfig:config.xml /o 
 %cd%\newtools\amd64\scanstate.exe %cd%\users\%uname% /ui:*\%uname% /ue:*\* /i:%cd%\newtools\amd64\MigApp.xml /i:%cd%\newtools\amd64\MigUser.xml /i:%cd%\newtools\amd64\MigDocs.xml /o /c
