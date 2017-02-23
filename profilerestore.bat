@@ -1,6 +1,6 @@
 @echo off
 :restore
-pushd \\fs.sc.fsu.edu\usmt
+pushd \\********\**** 
 set /p uname= Type the name of the profile you wish to restore
 if not exist %cd%\users\%uname% (
 goto :tryagain
