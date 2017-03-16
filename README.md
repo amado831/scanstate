@@ -1,6 +1,6 @@
 # scanstate
 
-windows user migration using scanstate
+Windows User Migration using scanstate
 
 You'll need to download the latest version of Windows ADK
 
